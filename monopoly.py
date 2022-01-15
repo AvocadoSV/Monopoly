@@ -11,11 +11,11 @@ class Player:
         self.balance = balance
         self.place = 0
 
-    def dice(self,a):
+    def dice(self,a):       #roll a dice
         self.place = self.place+a
        
 
-    def check_balance(self):
+    def check_balance(self):   
         print( self.balance)
     
     def bonus_cell(self):
